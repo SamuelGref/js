@@ -38,6 +38,8 @@ for (const [key,{open,close}] of entries) {
   console.log(`on ${key} we are at${open} and close at ${close}`)
 } 
 
+//  Short circuit 
+
 
 
 

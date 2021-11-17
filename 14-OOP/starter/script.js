@@ -45,3 +45,4 @@ console.log(Person.prototype.isPrototypeOf(Person)) //
 
 
 jonas.hasOwnProperty('firstName')
+

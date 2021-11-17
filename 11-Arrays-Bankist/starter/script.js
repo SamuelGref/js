@@ -74,3 +74,23 @@ const currencies = new Map([
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 /////////////////////////////////////////////////
+
+
+const numbers = [2, 5, 8]
+
+// accumulater -> is like snowball 
+// const addnumbers = function (acc,cur,i,arr) {
+//   console.log({acc,cur})
+//   return acc + cur
+ 
+// }
+// const initialValue = 0
+
+const balance = movements.reduce(function (acc,cur) {
+  return  acc + cur
+},0)
+
+console.log(balance)
+
+
+
